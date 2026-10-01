@@ -1,7 +1,51 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Antonio Castro — Economic Data Analysis</title>
+<meta name="description" content="Portfolio of macroeconomic, monetary and payment-systems data analysis.">
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--mut:#5c6370;--card:#f5f6f8;--acc:#0b5cad;--bd:#e1e4e8}
+@media (prefers-color-scheme:dark){:root{--bg:#111418;--fg:#e8eaed;--mut:#9aa3ad;--card:#1a1f26;--acc:#6cb2ff;--bd:#2b323b}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:48px 16px}
+h1{font-size:2rem;margin:0 0 4px}h2{margin-top:40px;border-bottom:1px solid var(--bd);padding-bottom:6px}
+.sub{color:var(--mut);margin:0 0 16px}
+a{color:var(--acc)}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:16px}
+.card h3{margin:0 0 6px;font-size:1.05rem}
+.tag{display:inline-block;font-size:.75rem;color:var(--mut);border:1px solid var(--bd);border-radius:99px;padding:1px 8px;margin:6px 4px 0 0}
+nav a{margin-right:14px}
+</style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<main>
+<h1>Antonio Castro</h1>
+<p class="sub">Economist · MSc candidate, World Political Economy (UFABC) · São Paulo, Brazil</p>
+<nav>
+<a href="https://github.com/afcastro">GitHub</a>
+<a href="mailto:afg.castro@outlook.com">Email</a>
+</nav>
+
+<h2>About</h2>
+<p>Reproducible data analysis on macroeconomics, monetary policy, the external sector and payment systems, grounded in post-Keynesian and Global South political economy. Six years as macro analyst at a Brazilian bank; now researching PIX, Drex and monetary sovereignty.</p>
+
+<h2>Projects</h2>
+<div class="grid">
+<div class="card"><h3><a href="https://github.com/afcastro/fx-misalignment-brl">BRL exchange-rate misalignment</a></h3><p>BEER model with Johansen cointegration and VECM.</p><span class="tag">VECM</span><span class="tag">Python/R</span><span class="tag">BCB</span></div>
+<div class="card"><h3><a href="https://github.com/afcastro/pix-adoption-brazil">PIX adoption in Brazil</a></h3><p>Diffusion and substitution of payment instruments.</p><span class="tag">Open data</span><span class="tag">Payments</span></div>
+<div class="card"><h3><a href="https://github.com/afcastro/external-constraint-global-south">External constraint &amp; growth</a></h3><p>Thirlwall's law across peripheral economies.</p><span class="tag">Panel</span><span class="tag">WDI</span></div>
+<div class="card"><h3><a href="https://github.com/afcastro/selic-credit-transmission">Selic transmission to credit</a></h3><p>SVAR and impulse responses for Brazil.</p><span class="tag">SVAR</span><span class="tag">Monetary policy</span></div>
+</div>
+
+<h2>Research</h2>
+<p>Master's thesis (in progress): Brazilian payment systems and monetary sovereignty. Undergraduate thesis: exchange-rate misalignment, top grade and nominated for best thesis.</p>
+
+<h2>Stack</h2>
+<p>Python (pandas, statsmodels, linearmodels) · R (vars, urca) · SQL · Git · Quarto/Jupyter</p>
+</main>
 </body>
 </html>
